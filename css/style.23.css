@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: rgba(0, 238, 255, 0.479);
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(90deg, #00a2ff, #00b7ffde);
+}
+
+#principal {
+    text-align: center;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    width: 500px;
+    border-radius: 5px;
+}
+
+h1 {
+    color: rgb(34, 35, 36);
+    text-align: center;
+    font-style: normal;
+}
+
+h2 {
+    color: rgb(88, 99, 110);
+    text-align: center;
+    font-style: oblique;
+    margin-bottom: 15px;
+}
+
+p {
+    text-align: justify;
+    font-style: italic;
+    width: 850px;
+    margin: 15px auto;
+}
+
+.first-title {
+    margin: 40px auto;
+    border-bottom: 2px solid black;
+    width: 289px;
+}
+
+.second-title {
+    margin: 40px auto;
+    border-bottom: 2px solid black;
+    width: 265px;
+}
+
+.basic {
+    color: rgba(0, 255, 34, 0.750);
+    background-color: #fff;
+    width: 250px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.intermediary {
+    color: rgba(248, 252, 2, 0.842);
+    background-color: #fff;
+    width: 250px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.advanced {
+    color: rgba(255, 0, 0, 0.750);
+    background-color: #fff;
+    width: 250px;
+    margin: 0 auto;
+    border-radius: 5px;
+}

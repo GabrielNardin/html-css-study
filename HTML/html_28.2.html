@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sombras nas Caixas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aquamarine;
+            margin: none;
+        }
+
+        header{
+            background-color: #FFF;
+            padding: 10px;
+            height: 80px;
+            width: 200px;
+            margin: auto;
+            border-radius: 5px;
+            box-shadow: 1px 2px 2px black;
+        }
+
+        h1{
+            height: 50px;
+            width: 150px;
+            margin: auto;
+            text-align: center;
+            box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.452)
+        }
+
+        nav{
+            height: 18px;
+            width: 190px;
+            margin: auto;
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 1px 1px 1px #00000079; 
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: #FFF;
+            font-weight: bold;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: #FFF;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 1px 2px 2px;
+        }
+
+        h2{
+            text-align: center;
+        }
+
+        article{
+            border-radius: 5px;
+            background-color: lightgray;
+            text-align: center;
+            font-style: italic;
+        }
+
+        article > aside {
+            height: 18px;
+            width: 235px;
+            margin: auto;
+            text-align: center;
+             
+        }
+
+        footer{
+            background-color: #000;
+            color: #FFF;
+            height: 18px;
+            width: 250px;
+            padding: 5px;
+            margin: auto;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: auto;
+            background-color: #FFF;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes, Politica e Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Debitis eius tenetur, beatae numquam, rem sequi reiciendis
+                    quisquam quos distinctio dicta amet eum non aperiam
+                    voluptatibus recusandae corrupti ex a magnam.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+    <div id="bola">
+        
+    </div>
+</body>
+</html>
