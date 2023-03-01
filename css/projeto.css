@@ -82,7 +82,7 @@ header > p {
     padding-left: 10px;
     margin: auto;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.699);
-    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 main {
