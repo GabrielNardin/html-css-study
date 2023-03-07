@@ -1,4 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --font1: Verdana, Geneva, Tahoma, san-serif;
+    --font2: 'Passion One', cursive;
+    --font3: 'Sriracha', cursive;
+}
+
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header {
+    font-family: var(--font1);
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+}
+
+header > h1 {
+    font-family: var(--font2);
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 4em;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+
+header a:houver, footer a:houver {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--font3);
+    font-size: 1em;
+}
+
+section > p {
+    padding-bottom: 1em;
+}
+
+.normal {
+    background-color: #FFF;
+    color: #000;
+}
+
+.img {
+    background-color: #363535;
+    color: #FFF;
+}
+
+.img > p {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 5px;
+    background-color: #00000059;
+}
+
+#img1 {
+    background-image: url(../HTML/desafio-cordel/imagens/background001.jpg);
+}
+
+#img2 {
+    background-image: url(../HTML/desafio-cordel/imagens/background002.jpg);
+}
+
+footer {
+    background-color: #000;
+    text-align: center;
+    color: #FFF;
+    padding: 5px;
 }
