@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+            border: 5px solid red;
+        }
+
+        tr {
+            background-color: gray
+        }
+
+        .linha {
+            background-color: aqua;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        .dado {
+            background-color: yellow;
+        }
+
+        div {
+            width: 400px;
+            height: 400px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <div id="first_table">
+        <table>
+            <tr> <!-- Primeira Linha -->
+                <td>A1</td>
+                <td>B1</td>
+                <td>C1</td>
+            </tr>
+            <tr class="linha"> <!-- Segunda linha-->
+                <td>A2</td>
+                <td>B2</td>
+                <td>C2</td>
+            </tr>
+            <tr> <!-- Terceira Linha -->
+                <td>A3</td>
+                <td class="dado">B3</td>
+                <td>C3</td>
+            </tr>
+            <tr> <!-- Quarta Linha -->
+                <td>A4</td>
+                <td>B4</td>
+                <td>C4</td>
+            </tr>
+        </table>
+    </div><div id="second_table">
+        <table>
+            <tr>
+                <td>A1</td>
+                <td>B1</td>
+                <td>C1</td>
+            </tr>
+            <tr>
+                <td>A2</td>
+                <td>B2</td>
+                <td>C2</td>
+            </tr>
+            <tr>
+                <td>A3</td>
+                <td>B3</td>
+                <td>C3</td>
+            </tr>
+            <tr>
+                <td>A4</td>
+                <td>B4</td>
+                <td>C4</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
