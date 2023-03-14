@@ -1,0 +1,33 @@
+body {
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to left,#4169E1, #9932CC);
+}
+
+table {
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #FFF;
+    width: 1000px;
+}
+
+thead {
+    height: 50px;
+    padding: 1000px;
+    color: #FFF;
+    background-color: rgba(3, 36, 107, 0.781);
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+}
+
+tbody > tr:nth-child(2n){
+    background-color: rgba(211, 211, 211, 0.336);
+}
