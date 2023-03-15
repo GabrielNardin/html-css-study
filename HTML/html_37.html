@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio 02</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table {
+      width: 300px;
+      border-collapse: collapse;
+    }
+
+    td, th {
+      border: 1px solid black;
+      padding: 10px;
+    }
+
+    th {
+      color: #FFF;
+      background-color: gray;
+    }
+    
+    .lessons {
+      color: #000;
+      background-color: #FFF;
+    } 
+
+    .average {
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <h1>Desafio 02</h1>
+  <table>
+    <thead>
+      <tr>
+        <th rowspan="2">Área</th>
+        <th rowspan="2">Disciplinas</th>
+        <th colspan="2">Nota</th>
+        <th rowspan="2">Média</th>
+      </tr>
+      <tr>
+        <th scope="col">Nota1</th>
+        <th scope="col">Nota2</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th rowspan="4" scope="rowgroup" class="lessons">Exatas</th>
+        <td>Matemática</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+      </tr>
+      <tr>
+        <td>Física</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+      </tr>
+      <tr>
+        <td>Química</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+      </tr>
+      <tr>
+        <td>Biologia</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+      </tr>
+      <tr>
+        <th colspan="4" class=" average">Média de Exatas</th>
+        <th>0.0</th>
+      </tr>
+      <tr>
+        <th rowspan="2" scope="rowgroup" class="lessons">Humanas</th>
+        <td>História</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+      </tr>
+      <tr>
+        <td>Geografia</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+      </tr>
+      <tr>
+        <th colspan="4" class=" average">Média de Humanas</th>
+        <th>0.0</th>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
