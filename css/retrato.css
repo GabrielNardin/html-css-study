@@ -1,1 +1,4 @@
- 
+ body {
+  background-image: url(../HTML/imagens-queries/cev-portrait.jpg);
+  background-position: center bottom;
+ }
