@@ -1,0 +1,17 @@
+@media screen and (min-width: 768px) {
+  #burg {
+    display: none;
+  }
+
+  menu {
+    display: block;
+  }
+
+  menu li {
+    display: inline-block;
+  }
+
+  main {
+    width: 768px;
+  }
+}
